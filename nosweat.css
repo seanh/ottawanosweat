@@ -1,0 +1,177 @@
+/* Links */a:link, a:visited
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #933;
+}
+
+a:hover
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #F33;
+}
+
+a:active {
+	font-weight : bold; 
+	text-decoration : none;
+	color: #33F;
+}
+
+/*Headers*/
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+	margin-top: 0.25em;
+}
+
+h1
+{
+	margin: 0.5em;
+	color: #933;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+h2
+{
+	color: #de0021;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 0.3em;
+	margin-bottom: 0px;
+	margin-left:0px;
+}
+
+h3
+{
+	color: #999;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0.1em;
+}
+
+/*quoted text:*/
+blockquote	{
+		background-color:#EEE;
+		padding:4mm;
+		margin:4mm;
+		border-left:1.5mm solid #BBB;
+		}
+
+/*pre-formatted text:*/
+pre	{
+	background:#EEE;
+	padding: 4mm;
+	margin:4mm;
+	border:0.25mm solid #999;
+	}
+	
+body {
+   background-color:#008fd8;
+   font: 9pt/17pt georgia; 
+}
+
+#logo {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+/*the 'page' which contains the site content, positioned to line up with background image exactly*/	
+#page {
+	position:absolute;
+	top:50px;
+	left:75px;
+   width:899px;
+	background-color:#EEE;
+	border:2px solid Black;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	z-index:1;
+}
+
+/*the main text box of the page*/	
+#content	{
+   margin-top: 250px;
+   margin-left:63px;
+   background-color:White;
+   width:650px;
+   border:1px solid #4a4d42;
+}
+
+.intro {
+	padding: 1em;
+   font-size: 1.5em;
+	font-weight: normal;
+	color: #de0021;
+}
+
+#text {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#sidebar {
+	text-align:left;
+	line-height:200%;
+	padding-top:1em;
+	margin-right:1em;
+}
+
+/*emphasised phrase for the start of a paragrah:*/
+.leadingPhrase {
+	font-weight:bold; font-size:1.25em; color:#008fd8;
+}
+
+/*larger character to start a paragraph:*/
+.leadingCharacter{
+	font-size:2em;font-weight:bold;
+}
+
+/*the validator links etc at the bottom of the page:*/
+#buttons	{
+		float:left;
+		padding-left:2%;	
+		padding-right:2%;
+		}
+
+.img-shadow {
+  float:left;
+  background: url(shadowAlpha.png) no-repeat bottom right !important;
+  background: url(shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+.img-shadow img {
+  border:none;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  margin: -6px 6px 6px -6px;
+  }
+			
+/*don't underline the button links!*/
+#buttons a	{
+	text-decoration:none;
+}	
+	
+/*the license image and text at the bottom of the page:*/
+#license	{
+	float:left;
+	padding-bottom:1%;
+	padding-left:2%;	
+	padding-right:2%;
+	font-size:small;
+	}
+
+/*the recommended browsers text:*/
+#browsers	{
+	float:left;
+	padding-bottom:1%;
+	padding-left:2%;	
+	padding-right:2%;
+	font-size:small;
+	}
